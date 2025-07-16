@@ -1,0 +1,22 @@
+# PDF Processing
+pypdfium2  # or pdfplumber, PyPDF2, pdfminer.six
+nougat-ocr # For advanced (table/image) extraction if needed, often requires separate setup
+
+# LLM Integrations
+langchain
+langchain-core
+langchain-community
+langchain-google-genai # For Google Gemini
+# langchain-openai # For OpenAI GPT models (if using)
+
+# Graph Database
+neo4j # Python driver for Neo4j
+langchain-neo4j # LangChain integration for Neo4j
+
+# Vector Database
+chromadb # Or `faiss-cpu`, `pinecone-client`, `weaviate-client`
+sentence-transformers # For local embeddings, e.g., 'all-MiniLM-L6-v2'
+
+# Utilities
+python-dotenv
+pandas # For tabular data handling
