@@ -20,6 +20,19 @@ The system supports ingestion of PDFs, extraction of entities and relationships,
 
 ---
 
+### Example Questions You Can Ask the System
+
+These sample queries demonstrate how users can interact with the RAG system once data has been ingested:
+
+- What is the submission deadline for the internship project?
+- What projects are mentioned in the internship document?
+- Which language should be used to build the system?
+- Can I use LangChain in my solution?
+- In how many days should I submit the project?
+
+---
+
+
 ## Setup Instructions
 
 ### 1. Clone the Repository
